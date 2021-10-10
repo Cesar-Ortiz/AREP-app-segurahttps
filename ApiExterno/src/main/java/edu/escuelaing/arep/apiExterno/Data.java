@@ -18,8 +18,6 @@ public class Data {
     }
 
     public HashMap<String, String> getCache(){
-        //String cachestr = cache.toString();
-        //System.out.println("cache:   "+cachestr);
         return cache;
     }
 }
