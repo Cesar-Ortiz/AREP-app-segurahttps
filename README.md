@@ -4,7 +4,7 @@
 César Fernando Ortiz Rocha
 ## Descripción general
 
-En este laboratorio se realizó un prototipo de aplicación segura haciendo uso del protocolo https, dicha aplicación cuenta con dos servicios, uno de los servicios es el de login el cual se va a encargar de recibir un usuario y una contraseña para autenticarse, una vez autenticado se diriguirá al otro servicio el cual tiene los datos almacenados, traera esos datos y los mostrará.
+En este laboratorio se realizó un prototipo de aplicación segura haciendo uso del protocolo https, dicha aplicación cuenta con dos servicios, uno de los servicios es el de login el cual se va a encargar de recibir un usuario y una contraseña para autenticarse, una vez autenticado se dirigirá al otro servicio el cual tiene los datos almacenados, traera esos datos y los mostrará.
 
 ## Desarrollo de los servicios
 
@@ -19,7 +19,7 @@ En el contructor de SecurityContext se realiza la implementación del hash de la
 
 ![](img/hash.PNG)
 
-Aqui se puede apreciar el metodo en el que se validan los datos que se registraron a la hora de hacer el logeo, si los datos concuerdan entonces se procedera a realzar la confianza del documento con la ip del servicio que trae los datos, de lo contrareo saldra acceso denegado.
+Aquí se puede apreciar el metodo en el que se validan los datos que se registraron a la hora de hacer el logeo, si los datos concuerdan entonces se procedera a realzar la confianza del documento con la ip del servicio que trae los datos, de lo contrareo saldra acceso denegado.
 
 ![](img/validate1.PNG)
 
