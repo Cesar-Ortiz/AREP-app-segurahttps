@@ -2,11 +2,11 @@
 ## Aplicación segura
 ## 👤 Autor
 César Fernando Ortiz Rocha
-## Descripción general
+## Descripción general 📚
 
 En este laboratorio se realizó un prototipo de aplicación segura haciendo uso del protocolo https, dicha aplicación cuenta con dos servicios, uno de los servicios es el de login el cual se va a encargar de recibir un usuario y una contraseña para autenticarse, una vez autenticado se dirigirá al otro servicio el cual tiene los datos almacenados, traera esos datos y los mostrará.
 
-## Desarrollo de los servicios
+## Desarrollo de los servicios 📝
 
 ### Servicio login
 
@@ -19,7 +19,7 @@ En el contructor de SecurityContext se realiza la implementación del hash de la
 
 ![](img/hash.PNG)
 
-Aquí se puede apreciar el metodo en el que se validan los datos que se registraron a la hora de hacer el logeo, si los datos concuerdan entonces se procedera a realzar la confianza del documento con la ip del servicio que trae los datos, de lo contrareo saldra acceso denegado.
+Aquí se puede apreciar el metodo en el que se validan los datos que se registraron a la hora de hacer el logeo, si los datos concuerdan entonces se procedera a realzar la confianza del documento con la ip del servicio que trae los datos, de lo contrario como resultado se obtendrá acceso denegado.
 
 ![](img/validate1.PNG)
 
@@ -29,18 +29,18 @@ En este servicio cuenta con dos endpoints un **(get)/hello** el cual cumple con 
 
 ![](img/datamain.PNG)
 
-En esta clase es donde se crean y guardan los datos en un hash map que luego van a ser llamados, dicho hash map contiene el author del proyecto y la fecha actual.
+En esta clase es donde se crean y guardan los datos en un hashmap que luego van a ser llamados, dicho hashmap contiene el author del proyecto y la fecha actual.
 
 ![](img/dataClass.PNG)
 
-## Diagrama de despliegue 
+## Diagrama de despliegue 🛠️
 
 ![](img/arquitectura.PNG)
 
-## Incorporar nuevos servicios en la Arquitectura de seguridad
+## Incorporar nuevos servicios en la Arquitectura de seguridad 🔗
 
 Para incorporar nuevos servicios a la arquitectura simplemente se debe generar el documento de seguridad respectivo en dicho servicio, haciendo que corra en https y pasandole el documento de confianza al servicio de login para que este pueda ingresar, ademas de generar el endpoint respectivo para saber cual debe ser el llamado que el servicio login debe hacer una vez el usuario se ha autenticado
 
-## Video Experimental
+## Video Experimental 🎥
 
-
+[Evidencia-aplicación-segura](http://localhost/)
