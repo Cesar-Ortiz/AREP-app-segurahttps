@@ -23,7 +23,7 @@ Aquí se puede apreciar el metodo en el que se validan los datos que se registra
 
 ![](img/validate1.PNG)
 
-### Servicio login
+### Servicio Data
 
 En este servicio cuenta con dos endpoints un **(get)/hello** el cual cumple con la función de verificar que el servicio funciona y un **(get)/getData** que se encarga de traer los datos almacenados en este servicio
 
